@@ -1,2 +1,2 @@
 # hegalpha
- HEGalpha Device Driver for the Data Capture and Streams API
+ HEGalpha Driver for the Data Capture and Streams API
