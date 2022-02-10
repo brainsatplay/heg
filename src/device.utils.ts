@@ -36,19 +36,17 @@ export const ondata = (newline:string) => {
 }
 
 // Template Callbacks
-export const onconnect = (device) => console.log('Device connected', device)
-export const ondisconnect = (device) => console.log('Device disconnected', device)
+export const onconnect = (device:any) => console.log('Device connected', device)
+export const ondisconnect = (device:any) => console.log('Device disconnected', device)
 export const onerror = console.error
 
 // Template Encoder / Decoder Specifications
 let encoder = new TextEncoder();
 const decoder = new TextDecoder("utf-8");
-export const encode = (msg:any, from:string) => {
-    console.log(msg, from)
+export const encode = (msg:any, _:string) => {
     return encoder.encode(msg)
 }
 
-export const decode = (msg:any, from:string) => {
-    console.log(msg, from)
+export const decode = (msg:any, _:string) => {
     return decoder.decode(msg)
 }

@@ -1,2 +1,2 @@
-# hegalpha
- HEGalpha Driver for the Data Capture and Streams API
+# hegduino
+HEGduino Driver for the Data Capture and Streams API
