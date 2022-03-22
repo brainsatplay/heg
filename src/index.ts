@@ -4,7 +4,7 @@ import { ondata, onconnect } from './device.utils'
 export const device = {
 
     // ----------------- Attributes -----------------
-    label: 'HEGduino', 
+    label: 'hegduino', 
 
     // ----------------- Behavior -----------------
     ondata: ondata,
