@@ -1,7 +1,7 @@
 import { ondata, onconnect } from './device.utils'
 
 
-export const hegduino = {
+export const device = {
 
     // ----------------- Attributes -----------------
     label: 'HEGduino', 
@@ -25,3 +25,5 @@ export const hegduino = {
     bufferSize: 1000,
     baudRate: 115200
 }
+
+export default device
