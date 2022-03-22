@@ -22,7 +22,9 @@ export const device = {
     usbVendorId: 4292,
     usbProductId: 60000,
     bufferSize: 1000,
-    baudRate: 115200
+    baudRate: 115200,
+
+    protocols: ['bluetooth', 'serial'],
 }
 
 export default device
