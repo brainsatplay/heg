@@ -35,11 +35,6 @@ export const ondata = (newline:string) => {
     return latest
 }
 
-// Template Callbacks
-export const onconnect = (device:any) => console.log('Device connected', device)
-export const ondisconnect = (device:any) => console.log('Device disconnected', device)
-export const onerror = console.error
-
 // Template Encoder / Decoder Specifications
 let encoder = new TextEncoder();
 const decoder = new TextDecoder("utf-8");

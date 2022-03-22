@@ -1,4 +1,4 @@
-import { ondata, onconnect } from './device.utils'
+import { ondata } from './device.utils'
 
 
 export const device = {
@@ -8,7 +8,6 @@ export const device = {
 
     // ----------------- Behavior -----------------
     ondata: ondata,
-    onconnect: onconnect,
 
     // ----------------- Protocols -----------------
     // Bluetooth
